@@ -1176,7 +1176,7 @@ end;
 procedure TForm1.Button13Click(Sender: TObject);
 begin
   try
-    openurl('https://gw.pacelabs.com/gw/webacc');
+    openurl('https://COMPANY.com/gw/webacc');
   except
     on E: Exception do
     begin
