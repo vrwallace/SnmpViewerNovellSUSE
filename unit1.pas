@@ -1741,7 +1741,7 @@ begin
       winscppath.Text := ini.readstring('config', 'winscppath', '');
       rdpath.Text := ini.readstring('config', 'rdpath', '');
       hostlisttemp := ini.readstring('config', 'hostlist',
-        '"v20oesfile1","v20oesgw1","v20oesgw2","v60oesfile1","v60oesgw1","v60oesgw2","v60oesmaster","v64oesgw1","v75oesfile1","v75oesgw1","v75oesgw2"');
+        '"HOST1","HOST2"');
 
       listboxhostlist.Clear;
       ipaddr.Clear;
